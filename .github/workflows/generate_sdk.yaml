@@ -9,7 +9,7 @@ jobs:
     name: Generate TS client
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - name: Download OpenAPI document
         run: | 
           mkdir -p tmp
